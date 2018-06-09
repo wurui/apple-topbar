@@ -1,0 +1,12 @@
+{
+  "name": "apple-topbar",
+  "apiDependencies": [
+  {
+    "name": "headmenu"
+  },
+  {
+    "name": "icon-title-link"
+  }
+]
+}
+
