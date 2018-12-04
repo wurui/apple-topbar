@@ -2,10 +2,10 @@
   "name": "apple-topbar",
   "apiDependencies": [
   {
-    "name": "headmenu"
+    "name": "ui-imglist"
   },
   {
-    "name": "icon-title-link"
+    "name": "ui-entry"
   }
 ]
 }

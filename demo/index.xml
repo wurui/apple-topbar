@@ -14,41 +14,43 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-    <icon-title-link ADAPTERID="25b1b6758894dfb7fdb9bceb6">
-        <i>
-            <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a15e7b0mTji6yuap6R6jo2A5et-1000.png</icon>
-            <title>购物车</title>
-            <href></href>
-            <_id>5b1b6758894dfb7fdb9bceb1</_id>
-        </i>
-        <i>
-            <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a15e6yy0Tji6yumrsRup2rA5pl-1000.png</icon>
-            <title>收藏</title>
-            <href></href>
-            <_id>5b1b6758894dfb7fdb9bceb2</_id>
-        </i>
-        <i>
-            <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a15e6sboTji6yute4Rn2amA5pv-1000.png</icon>
-            <title>订单</title>
-            <href></href>
-            <_id>5b1b6758894dfb7fdb9bceb3</_id>
-        </i>
-        <i>
-            <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a15e6ezxTji6yv6pvRhifgA5r4-1000.png</icon>
-            <title>设置</title>
-            <href></href>
-            <_id>5b1b6758894dfb7fdb9bceb4</_id>
-        </i>
-        <i>
-            <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a15e655hTji6yvgkbR7wrmA5ru-1000.png</icon>
-            <title>登录</title>
-            <href></href>
-            <_id>5b1b6758894dfb7fdb9bceb5</_id>
-        </i>
-    </icon-title-link>
-    <headmenu ADAPTERID="25aa49af828fd94453c70f90e">
-        <logo>http://i.oxm1.cc/uploads/git/wurui/img/2adq6ganhTj5m6lb2bRrxz4Aftk-1000.png</logo>
-        <menu>
+        <ui-imglist>
+            <i>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/29ucuflu1TjozilzvrRv5rcAc8k-1000.png</img>
+                <href>#index</href>
+            </i>
+        </ui-imglist>
+        <ui-entry>
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a15e7b0mTji6yuap6R6jo2A5et-1000.png</icon>
+                <title>购物车</title>
+                <href></href>
+                
+            </i>
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a15e6yy0Tji6yumrsRup2rA5pl-1000.png</icon>
+                <title>收藏</title>
+                <href></href>
+                
+            </i>
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a15e6sboTji6yute4Rn2amA5pv-1000.png</icon>
+                <title>订单</title>
+                <href></href>
+                
+            </i>
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a15e6ezxTji6yv6pvRhifgA5r4-1000.png</icon>
+                <title>设置</title>
+                <href></href>
+                
+            </i>
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a15e655hTji6yvgkbR7wrmA5ru-1000.png</icon>
+                <title>登录</title>
+                <href></href>
+                
+            </i>
             <i>
                 <title>首页</title>
                 <href>index</href>
@@ -69,7 +71,7 @@
                 <title>联系我们</title>
                 <href>contact-us</href>
             </i>
-        </menu>
-    </headmenu>
+        </ui-entry>
+     
     </data>
 </root>

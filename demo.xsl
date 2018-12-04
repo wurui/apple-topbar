@@ -15,7 +15,12 @@
         <oxtopbar><xsl:call-template name="wurui.apple-topbar" /></oxtopbar>
         <script><![CDATA[
           require.config({
-            urlArgs:Math.random(),
+            urlArgs:function(id,url){
+              if(/^https?:/.test(url)){
+                return ''
+              }
+              return '?r='+Math.random()
+            },
             paths: {
               jquery: 'https://l.oxm1.cc/3rd/jquery',
               zepto: 'https://l.oxm1.cc/3rd/zepto.min',
