@@ -7,7 +7,7 @@
       <head>
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
         <title>apple-topbar - DEMO</title>
-        <link rel="stylesheet" type="text/css" href="http://dev.openxsl.cn/css/ea.css?{generate-id(.)}" />
+        <link rel="stylesheet" type="text/css" href="https://a.oxm1.cc/css/ea.css" />
         <link rel="stylesheet" type="text/css" href="../asset/index.css?{generate-id(.)}" />
         <script src="https://l.oxm1.cc/3rd/require.js"></script>
       </head>
