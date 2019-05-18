@@ -1,12 +1,14 @@
 {
-  "name": "apple-topbar",
-  "apiDependencies": [
-  {
-    "name": "ui-imglist"
-  },
-  {
-    "name": "ui-entry"
-  }
-]
+	"RULE_VERSION":"20190428",
+	"name": "apple-topbar",
+	"apiDependencies": [
+		{
+			"name":"the-site"
+		},
+		{
+			"name": "ui-entry"
+		}
+	]
 }
+
 

@@ -2,8 +2,8 @@
     <xsl:template match="/root" name="wurui.apple-topbar">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-apple-topbar" ox-mod="apple-topbar">
-	       <xsl:variable select="data/ui-entry/i[icon]" name="list-icon"/>
-           <xsl:variable select="data/ui-entry/i[not(icon)]" name="list-noicon"/>
+	       <xsl:variable select="data/ui-entry/i" name="list-icon"/>
+           <xsl:variable select="data/the-site/channels/i" name="list-noicon"/>
            <xsl:if test="count($list-noicon) &gt; 0">
                 <div class="left-menu">
             		<button class="J_leftMenu icon-menu"></button><br/>
@@ -23,14 +23,17 @@
             		<ul class="list">
             			<xsl:for-each select="$list-icon">
             				<li>
-            					<a href="{href}"><img src="{icon}"/><xsl:value-of select="title"/></a>
+            					<a href="{href}">
+                                    <img class="icon" src="https://a.oxm1.cc/img/blank.png" style="background-image:url({icon})"/>
+                                    <xsl:value-of select="title"/>
+                                </a>
             				</li>
             			</xsl:for-each>
             		</ul>
             	</div>
             </xsl:if>
-        	<xsl:if test="data/ui-imglist/i[1]">
-            	<img src="{data/ui-imglist/i[1]/img}"/>
+        	<xsl:if test="data/the-site/logo and data/the-site/logo !='' ">
+            	<img class="logo" src="https://a.oxm1.cc/img/blank.png" style="background-image:url({data/the-site/logo})"/>
             </xsl:if>
         </div>
     </xsl:template>
